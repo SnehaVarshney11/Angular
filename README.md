@@ -18,3 +18,26 @@
 * Check the version of angular -> ng version
 * After run this command, output should be
 <img src="/Images/CLI.png" width = "500px" height = "300px"> 
+
+# Create new Angular Project
+* run command -> ng new ProjectName (suppose name is Hello-World)
+* run command -> cd Hello-World
+* run command -> ng serve to run application 
+* Now go to google and write -> http://localhost:4200/
+
+# Architecture
+* Angular App - one or more module
+* Module - One or more component and servies
+* Components - HTML + CSS
+* Services - Bussiness Logic
+* Modules interacts and ultimately render the view in the browser.
+<img src="/Images/modules.png" width = "500px" height = "300px"> 
+<img src="/Images/comp.png" width = "500px" height = "300px"> 
+<img src="/Images/comp2.png" width = "500px" height = "300px"> 
+<img src="/Images/service.png" width = "500px" height = "300px"> 
+
+* package.json file contains all the packages 
+* main.ts file is entry point of angular project
+* app.module.ts is root module of our application
+* app.component.ts is root component of our application
+* When we run ng serve command to start our application, the execution comes to main.ts file then goes in app.modules.ts, then app.components.ts
