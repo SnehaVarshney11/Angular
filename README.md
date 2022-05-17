@@ -14,4 +14,4 @@
 # Need 
 * NodeJs, NPM, Angular CLI, Text Editor - VS Code
 * <b>Angular CLI :- </b> It is command line interface for angular. It allows to generate building blocks of angular application by just typing out the commands. 
-<img src="/Images/commands.png" width = "100px">
+<img src="/Images/commands.png" width = "500px" height = "500px">
