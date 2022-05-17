@@ -36,6 +36,7 @@
 <img src="/Images/comp2.png" width = "500px" height = "300px"> 
 <img src="/Images/service.png" width = "500px" height = "300px"> 
 
+# About some importat files 
 * package.json file contains all the packages 
 * main.ts file is entry point of angular project
 * app.module.ts is root module of our application
