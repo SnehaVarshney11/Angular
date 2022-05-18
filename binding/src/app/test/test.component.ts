@@ -13,6 +13,8 @@ import { Component, OnInit } from '@angular/core';
     <h2>{{name.toUpperCase()}}</h2>
     <h2>{{greateUser()}}</h2>
     <h2>{{siteUrl}}</h2>
+    <input [id] = "myId" type="text" value="Sneha"> It is property binding
+    <input bind-disabled = "isDisable" [id] = "myId" type="text" value="Sneha">
   `,
   // We can't do this here
   //   <h2>{{a = 2+2}}</h2>
@@ -23,6 +25,8 @@ export class TestComponent implements OnInit {
 
   public name = "Sneha"; 
   public siteUrl = window.location.href;
+  public myId = "testId";
+  public isDisable = true;
   constructor() { }
 
   ngOnInit(): void {
