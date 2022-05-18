@@ -42,3 +42,14 @@
 * app.module.ts is root module of our application
 * app.component.ts is root component of our application
 * When we run ng serve command to start our application, the execution comes to main.ts file then goes in app.modules.ts, then app.components.ts
+
+# Component 
+* There are three components of angular- <br>
+1) <b>Template -></b> It represents the view. This is created using HTML. <br>
+2) <b>Class -></b> It is nothing but a code that supports the view. This is created using typescript. It contains Data & Methods. <br>
+3) <b>Meta Data -></b> This is information that angular needs to decide if the particular class is angular component or just a regular class. This is defined using a decorator which is feature in typescript. Decorator defines tha information about the class which is attach to it. <br><br>
+
+<b>Create a Component :- </b> Run the command `ng g c test` (comp name)
+
+# Interpolation
+Interpolation is a technique that allows the user to bind a value to a UI element. Interpolation binds the data one-way. This means that when value of the field bound using interpolation changes, it is updated in the page as well. It cannot change the value of the field.
