@@ -52,4 +52,15 @@
 <b>Create a Component :- </b> Run the command `ng g c test` (comp name)
 
 # Interpolation
-Interpolation is a technique that allows the user to bind a value to a UI element. Interpolation binds the data one-way. This means that when value of the field bound using interpolation changes, it is updated in the page as well. It cannot change the value of the field.
+* Interpolation is a technique that allows the user to bind a value to a UI element. Interpolation binds the data one-way. This means that when value of the field bound using interpolation changes, it is updated in the page as well. It cannot change the value of the field.
+* There is limitation with interpolation. It works with string value.
+
+# Attribute VS Property
+* Atrribute ans Property are not same. Attribute- HTML, Property- DOM
+* Attributes initialize DOM properties and they are done. Attribute value can't change once they are initialized.
+* Property value however can change.
+
+# Binding
+Binding is the process which forms the connection between the application UI and the data which comes from the business logic. In Angular it can be called the automatic synchronization of the data and the view.
+# Property Binding
+Property binding in Angular helps you set values for properties of HTML elements or directives. Use property binding to do things such as toggle button functionality, set paths programmatically, and share values between components.
