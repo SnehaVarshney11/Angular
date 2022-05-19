@@ -69,5 +69,5 @@ Class binding is used to set a class property of a view element. We can add and 
 # Style Binding
 Style binding is used to set a style of a view element. We can set the inline styles of an HTML element using the style binding in angular. You can also add styles conditionally to an element, hence creating a dynamically styled element.
 # Event Binding
-Event binding lets you listen for and respond to user actions such as keystrokes, mouse movements, clicks, and touches. See the live example / download example for a working example containing the code snippets in this guide.
+Event binding lets you listen for and respond to user actions such as keystrokes, mouse movements, clicks, and touches. <br>
 <img src="/Images/binding.png" width = "500px" height = "300px"> 
