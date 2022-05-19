@@ -64,3 +64,9 @@
 Binding is the process which forms the connection between the application UI and the data which comes from the business logic. In Angular it can be called the automatic synchronization of the data and the view.
 # Property Binding
 Property binding in Angular helps you set values for properties of HTML elements or directives. Use property binding to do things such as toggle button functionality, set paths programmatically, and share values between components.
+# Class Binding
+Class binding is used to set a class property of a view element. We can add and remove the CSS class names from an element's class attribute with class binding. The class binding syntax is also like property binding. In property binding, we only specify the element between brackets.
+# Style Binding
+Style binding is used to set a style of a view element. We can set the inline styles of an HTML element using the style binding in angular. You can also add styles conditionally to an element, hence creating a dynamically styled element.
+# Event Binding
+Event binding lets you listen for and respond to user actions such as keystrokes, mouse movements, clicks, and touches. See the live example / download example for a working example containing the code snippets in this guide.
