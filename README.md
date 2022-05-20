@@ -93,3 +93,9 @@ It is used to refer to an HTML element and all of its DOM property. Template var
 * For this, angular provides a another directive namely the <b>ng model directive.</b>
 * Angular's two-way binding syntax is a combination of square brackets and parentheses, [()] . The [()] syntax combines the brackets of property binding, [] , with the parentheses of event binding, () , as follows.
 <img src="/Images/Two-Way Binding.png" width = "500px" height = "300px"> 
+
+# Structural Directives
+* Add or remove HTML elements-
+1) ngIf :- used to conditionally render HTML elements.
+2) ngSwitch :- used to conditionally render HTML elements.
+3) ngFor :- this directive is used to render a list of HTML elements.
