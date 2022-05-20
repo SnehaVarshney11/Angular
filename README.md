@@ -71,3 +71,25 @@ Style binding is used to set a style of a view element. We can set the inline st
 # Event Binding
 Event binding lets you listen for and respond to user actions such as keystrokes, mouse movements, clicks, and touches. <br>
 <img src="/Images/binding.png" width = "500px" height = "300px"> 
+
+# Template Reference Variables
+It is used to refer to an HTML element and all of its DOM property. Template variables help you use data from one part of a template in another part of the template. Use template variables to perform tasks such as respond to user input or finely tune your application's forms.
+* A template variable can refer to the following:
+1) A DOM element within a template 
+2) A directive
+3) An element
+4) TemplateRef
+5) A web component <br>
+<b>Syntax</b>
+```
+<input #phone placeholder="phone number" />
+<!-- lots of other elements -->
+<!-- phone refers to the input element; pass its `value` to an event handler -->
+<button type="button" (click)="callPhone(phone.value)">Call</button>
+```
+
+# Two-Way Binding
+* Two-Way Binding allows us to update a property and at same time display the value of that property.
+* For this, angular provides a another directive namely the <b>ng model directive.</b>
+* Angular's two-way binding syntax is a combination of square brackets and parentheses, [()] . The [()] syntax combines the brackets of property binding, [] , with the parentheses of event binding, () , as follows.
+<img src="/Images/Two-Way Binding.png" width = "500px" height = "300px"> 
