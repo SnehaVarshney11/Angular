@@ -22,6 +22,12 @@ import { ArgumentOutOfRangeError } from 'rxjs';
       <button (click) = "onClick($event)">Event Binding</button>
       <button (click) = "greeting = 'Welcome Angular'">Event Binding</button>
       {{greeting}}
+
+      <input #myInput type = "text">
+      <button (click) = "logMessage(myInput)">Template Reference Variable</button> <br><br><br>
+
+      Two_Way Binding <input [(ngModel)] = "naam" type = "text"> 
+      {{naam}}
   `,
   // concept of interpolation --> {{name}}
   // template: `
@@ -56,6 +62,8 @@ import { ArgumentOutOfRangeError } from 'rxjs';
   `]
 })
 export class TestComponent implements OnInit {
+  // For Two-Way Binding 
+  public naam = "";
 
   public name = "Sneha"; 
   public siteUrl = window.location.href;
@@ -86,5 +94,8 @@ export class TestComponent implements OnInit {
   }
   greateUser(){
     return "Hello " + this.name;
+  }
+  logMessage(value: any){
+    console.log(value);
   }
 }
