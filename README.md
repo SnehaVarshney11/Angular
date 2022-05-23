@@ -100,6 +100,6 @@ It is used to refer to an HTML element and all of its DOM property. Template var
 2) ngSwitch :- used to conditionally render HTML elements.
 3) ngFor :- this directive is used to render a list of HTML elements.
 # Component Interaction
-Angular is all about components that have to interact with one another. It provides multiple ways to pass on the data from one component to another component.
+Angular is all about components that have to interact with one another. It provides multiple ways to pass on the data from one component to another component.<br>
 <img src="/Images/CompInter.png" width = "500px" height = "300px">
 <img src="/Images/CIEX.png" width = "500px" height = "300px">
