@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'structural-directives';
+  // About Component Interaction 
+  public name = "Sneha";
+  public message = "";
 }

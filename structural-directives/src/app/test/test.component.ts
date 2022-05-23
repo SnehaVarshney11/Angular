@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit, Output, EventEmitter} from '@angular/core';
 
 @Component({
   selector: 'app-test',
@@ -26,10 +26,12 @@ import { Component, OnInit } from '@angular/core';
       <div *ngSwitchDefault>Pick Again</div>
     </div>
 
-
-      <div *ngFor = "let color of colors; index as i; first as f; last as l; odd as o; even as e">
+    <div *ngFor = "let color of colors; index as i; first as f; last as l; odd as o; even as e">
         <h2>{{e}} {{o}} {{l}} {{f}} {{i}} {{color}}</h2>
       </div>
+
+      <h2>{{"About Component Interaction " + name}}</h2>
+      <Button (click) = "fireEvent()">Send Event</Button>
   `,
   styles: []
 })
@@ -38,9 +40,15 @@ export class TestComponent implements OnInit {
   displayName = false;
   public colors = ["red", "blue", "green", "yellow"];
 
+  @Input('parentData') public name: any;
+  @Output() public childEvent = new EventEmitter();
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+  fireEvent(){
+    this.childEvent.emit('Hey Sneha');
   }
 
 }
