@@ -103,3 +103,8 @@ It is used to refer to an HTML element and all of its DOM property. Template var
 Angular is all about components that have to interact with one another. It provides multiple ways to pass on the data from one component to another component.<br>
 <img src="/Images/CompInter.png" width = "500px" height = "300px">
 <img src="/Images/CIEX.png" width = "500px" height = "300px">
+
+# Pipes
+* Pipes allow us to transform data before displaying them in the view.
+* It allows transform the data only for view. It doesn't change the value of the property in the class.
+* There are some buit-in pipes- <br> 1) lowercase <br> 2) uppercase <br> 3) titlecase <br> 4) slice <br> 5) json <br> 6) number <br> 7) percent <br> 8) currency <br> 9) date <br>
