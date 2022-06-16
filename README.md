@@ -134,3 +134,23 @@ DI is a coding pattern in which a class receives its dependencies from extranal 
 <img src="/Images/DPFC.png" width = "500px" height = "300px">
 
 <b> Create a new Service:- </b> ng g s service_name
+
+# Hierarchical Dependency Injection
+* A hierarchical dependency injection system allows us to define different boundaries or scopes for our dependencies to run in and follows the component tree structure.<br>
+<img src="/Images/HDI1.png" width = "500px" height = "300px">
+<img src="/Images/HDI2.png" width = "500px" height = "300px">
+<img src="/Images/HDI3.png" width = "500px" height = "300px">
+<img src="/Images/HDI4.png" width = "500px" height = "300px">
+
+# HTTP and Observables
+* HTTP is a request/response protocol. You make a request, it returns a single response. 
+* In general, an observable can return multiple values over time.
+* An observable from HttpClient always emits a single value and then completes, never to emit again.<br>
+<b> STEPS:- </b> <br>
+1) HTTP get request from EmpService.
+2) Receive the observable and cast it into employee array.
+3) Subscribe the observable from EmpList and EmpDetail.
+4) Assign the employee array to local variable. <br>
+<b> RxJS :- </b> Reactive extensions for JS and external library to work with observable. 
+<img src="/Images/http.png" width = "500px" height = "300px">
+<img src="/Images/observables.png" width = "500px" height = "300px">
