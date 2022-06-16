@@ -126,9 +126,11 @@ DI is a coding pattern in which a class receives its dependencies from extranal 
 <img src="/Images/DP1.png" width = "500px" height = "300px">
 <img src="/Images/DP2.png" width = "500px" height = "300px"> 
 
-<b> CODE WITHOUT DI </b>
+# CODE WITHOUT DI 
 <img src="/Images/withoutDI.png" width = "500px" height = "300px"> 
 
-<b> DI AS A FRAMEWORK </b>
+# DI AS A FRAMEWORK 
 <img src="/Images/DPF.png" width = "500px" height = "300px">
 <img src="/Images/DPFC.png" width = "500px" height = "300px">
+
+<b> Create a new Service:- </b> ng g s service_name
