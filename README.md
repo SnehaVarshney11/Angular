@@ -124,9 +124,9 @@ Angular is all about components that have to interact with one another. It provi
 DI is a coding pattern in which a class receives its dependencies from extranal sources rather than creating them itself. <br>
 <img src="/Images/DP.png" width = "500px" height = "300px">
 <img src="/Images/DP1.png" width = "500px" height = "300px">
-<img src="/Images/DP2.png" width = "500px" height = "300px">
+<img src="/Images/DP2.png" width = "500px" height = "300px"> <br>
 <b> CODE WITHOUT DI </b>
-<img src="/Images/withoutDI.png" width = "500px" height = "300px">
+<img src="/Images/withoutDI.png" width = "500px" height = "300px"> <br>
 <b> DI AS A FRAMEWORK </b>
 <img src="/Images/DPF.png" width = "500px" height = "300px">
 <img src="/Images/DPFC.png" width = "500px" height = "300px">
