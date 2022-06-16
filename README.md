@@ -108,3 +108,17 @@ Angular is all about components that have to interact with one another. It provi
 * Pipes allow us to transform data before displaying them in the view.
 * It allows transform the data only for view. It doesn't change the value of the property in the class.
 * There are some buit-in pipes- <br> 1) lowercase <br> 2) uppercase <br> 3) titlecase <br> 4) slice <br> 5) json <br> 6) number <br> 7) percent <br> 8) currency <br> 9) date <br>
+
+# Services
+* It is a class with specific purpose.
+* Need -> Share data, Implement application logic, External interation (connecting to database)
+* Naming convention -> .service.ts
+
+# Dependency Injection (DI)
+* Dependencies are services or objects that a class needs to perform its function.
+* Dependency injection, or DI, is a design pattern in which a class requests dependencies from external sources rather than creating them.
+* Angular's DI framework provides dependencies to a class upon instantiation.
+* Use Angular DI to increase flexibility and modularity in your applications.
+
+* # DI as a design patter - 
+DI is a coding pattern in which a class receives its dependencies from extranal sources rather than creating them itself. 
