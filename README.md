@@ -155,4 +155,4 @@ DI is a coding pattern in which a class receives its dependencies from extranal 
 <img src="/Images/http.png" width = "500px" height = "300px">
 <img src="/Images/observables.png" width = "500px" height = "300px"><br>
 
-* Till angular version 4, we were using HTTP module but from version 5, we use HTTP client module which provides a simple api for HTTP functionality for use with angular applictaions. 
+* Till angular version 4, we were using HTTP module but from version 5, we use HTTP client module which provides a simple api for HTTP functionality for use with angular applictaions. <br>
